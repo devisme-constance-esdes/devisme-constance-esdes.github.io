@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+*{
+    font-family: 'Kalam', cursive;
+}
+
+nav {
+    background-color: #977c63;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+
+}
+.nav-item {
+    height: 75px;
+    min-width: 100px;
+    flex:1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item:hover{
+    background-color: #c3c0b4
+    ;
+}
+
+.nav-item a {
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url("img/Home.jpg");
+    height: 80% ;
+    width: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50px; 
+    font-size: 15px;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+header h1 {
+    background-color: #dde8eebd ; 
+    color: #18171a;
+    border-style : solid;
+    border-width:2px;
+    text-align: center;
+    border-color: rgb(66, 66, 66); 
+    border-radius: 10px;
+    margin: 0;
+    padding:5px 10px; 
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0,.64,.02,1.05);
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+header h1:hover {
+    background-color: rgba(61, 60, 60, 0.733); 
+    color : rgb(255, 255, 255);  
+}
+
+section{
+background-color: rgb(73, 73, 77);
+margin: 0;
+flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+min-height: 100%;
+cursor: pointer;
+}
+
+section a {
+    width : 23%;
+    margin: 30px;
+}
+
+article {
+background-repeat: no-repeat;
+background-position: center;
+background-size : cover;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 300px;
+padding: 2%;
+align-content: center;
+border-color: rgb(66, 66, 66); 
+}
+
+article:hover {
+    filter: grayscale(100%);
+    transition: all 0.3s cubic-bezier(0,.64,.02,1.05);
+}
+
+#article1{ background-image: url("img/Paris 1.jpg"); }
+
+#article2{background-image: url("img/Paris2.jpg"); }
+
+#article3{background-image: url("img/malgorzata-frej-4151-unsplash.jpg"); }
+
+#article4{background-image: url("img/Paris4.jpg"); }
+
+#article5{background-image: url("img/Paris5.jpg"); }
+
+#article6{background-image: url("img/Paris6.jpg"); }
+
+footer {
+    background-image: url("img/Home.jpg");
+    height: 100% ;
+    width: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50px; 
+    font-size: 15px;
+    background-attachment: fixed;
+}
+
+
+/** RESPONSIVE **/
+/*MOBILE*/
+
+@media screen and (max-width: 600px) {
+    section {
+    flex-wrap: nowrap;
+    flex-direction: column;    
+    }
+    section a {
+        width: 80%;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    section a {
+        width: 70%;
+    }
+}
+
+/** ANIMATION **/
+
+header h1 {
+    animation : enter 2s ease-in-out;}
+
+@keyframes enter {
+    from {opacity:0;
+    transform: translateY(100px);
+}
+    to {opacity :1;
+    transform: translateY(0);
+    }
+}
+
