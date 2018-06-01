@@ -4,13 +4,15 @@
     font-family: 'Kalam', cursive;
 }
 
+/*** MENU ***/
+
 nav {
-    background-color: #977c63;
+    background-color: pink;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap
-
 }
+
 .nav-item {
     height: 75px;
     min-width: 100px;
@@ -31,6 +33,7 @@ nav {
     text-decoration: none;
 }
 
+/*** HEADER ***/
 header {
     background-image: url("img/Home.jpg");
     height: 80% ;
@@ -47,22 +50,11 @@ header {
     background-attachment: fixed;
 }
 
-
-
-
-
-
-
-
-
-
 html,body{
     height: 100%;
     width: 100%;
     margin: 0;
 }
-
-
 
 header h1 {
     background-color: #dde8eebd ; 
@@ -85,6 +77,12 @@ header h1:hover {
     color : rgb(255, 255, 255);  
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+    }
+
+
 section{
 background-color: rgb(73, 73, 77);
 margin: 0;
@@ -93,48 +91,93 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-min-height: 100%;
+min-height: 45%;
 cursor: pointer;
 }
 
+
 section a {
-    width : 23%;
+    width : 13%;
     margin: 30px;
 }
 
-article {
-background-repeat: no-repeat;
-background-position: center;
-background-size : cover;
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 300px;
-padding: 2%;
-align-content: center;
-border-color: rgb(66, 66, 66); 
+
+/******
+* ARTICLES
+*******/
+
+/*** about ***/
+
+#about article{
+    width: 100%;
+    padding: 15px;
+    background-color:grey;
+    margin: 30px;
+    text-align: justify;
 }
 
-article:hover {
+#about h2{
+    text-transform: uppercase;
+    color :rgb(189, 62, 62);
+    text-decoration: underline;
+}
+
+#about p b{
+    font-weight: 700%;
+}
+
+#about hr {
+    width: 80%;
+}
+
+#articles {
+    background-color: rgb(248, 241, 241);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+#articles a {
+    width: 33%;
+    margin: 20px 20px;
+}
+
+#articles article {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    background-color:  rgba(249, 251, 253, 0.5);
+    width: 100%;
+    align-items: center;
+    border-width: 4px;
+    border-color: rgb(253, 253, 253);
+    border-style: solid;
+    margin-bottom: 5%;
+}
+
+#articles article:hover {
     filter: grayscale(100%);
-    transition: all 0.3s cubic-bezier(0,.64,.02,1.05);
+    transition: all 0,6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#article1{ background-image: url("img/Paris 1.jpg"); }
+#Article1 {background-image:url("img/Paris\ 1.jpg");}
+#Article2 {background-image:url("img/Paris2.jpg");}
+#Article3 {background-image:url("img/Paris3.jpg");}
+#Article4 {background-image:url("img/Paris3.jpg");}
+#Article5 {background-image:url("img/Paris4.jpg");}
+#Article6 {background-image:url("img/Paris5.jpg");}
 
-#article2{background-image: url("img/Paris2.jpg"); }
-
-#article3{background-image: url("img/malgorzata-frej-4151-unsplash.jpg"); }
-
-#article4{background-image: url("img/Paris4.jpg"); }
-
-#article5{background-image: url("img/Paris5.jpg"); }
-
-#article6{background-image: url("img/Paris6.jpg"); }
+/*** FOOTER ***/
 
 footer {
     background-image: url("img/Home.jpg");
-    height: 100% ;
+    height: 50% ;
     width: 100% ;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +191,6 @@ footer {
     background-attachment: fixed;
 }
 
-
 /** RESPONSIVE **/
 /*MOBILE*/
 
@@ -161,6 +203,7 @@ footer {
         width: 80%;
     }
 }
+
 
 /*TABLET*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -182,4 +225,3 @@ header h1 {
     transform: translateY(0);
     }
 }
-

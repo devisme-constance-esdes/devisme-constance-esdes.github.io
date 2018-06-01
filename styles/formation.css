@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*{
+    font-family: 'Dosis', cursive;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color :pink;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: pink;
+    margin : 50px;
+}
+
+section{
+background-color:grey;
+}
+
+article {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 300px;
+    margin: 20px;
+}
