@@ -4,6 +4,11 @@
     font-family: 'Kalam', cursive;
 }
 
+
+h4{
+    font-size: 40px;
+}
+
 /*** MENU ***/
 
 nav {
@@ -55,6 +60,25 @@ html,body{
     width: 100%;
     margin: 0;
 }
+
+
+/*** Lien dans le header ***/
+#social-links {
+    position: absolute;
+    top: 20px; 
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;  
+    margin: 2px;
+}
+
+.liens{
+    width: 40px;
+    margin: 5%;
+}
+            /****/
 
 header h1 {
     background-color: #dde8eebd ; 
@@ -111,15 +135,15 @@ section a {
 #about article{
     width: 100%;
     padding: 15px;
-    background-color:grey;
     margin: 30px;
     text-align: justify;
 }
 
 #about h2{
     text-transform: uppercase;
-    color :rgb(189, 62, 62);
+    color :white;
     text-decoration: underline;
+    text-align: center;
 }
 
 #about p b{
@@ -139,6 +163,7 @@ section a {
     justify-content: center;
     min-height: 100%;
 }
+
 
 #articles a {
     width: 33%;
@@ -177,7 +202,6 @@ section a {
 
 footer {
     background-image: url("img/Home.jpg");
-    height: 50% ;
     width: 100% ;
     background-repeat: no-repeat;
     background-position: center;
