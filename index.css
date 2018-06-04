@@ -12,7 +12,7 @@ h4{
 /*** MENU ***/
 
 nav {
-    background-color: pink;
+    background-color: #a48f7f;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap
@@ -144,6 +144,11 @@ section a {
     color :white;
     text-decoration: underline;
     text-align: center;
+}
+
+#about p{
+    color: white;
+    font-size: 20px;
 }
 
 #about p b{

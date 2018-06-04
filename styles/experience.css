@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 
 *{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
 }
+
 
 html, body {
     height: 100%;
@@ -43,7 +44,7 @@ article1 {
 }
 
 h1 {
-    color: black;
+    color: #963108;
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 40px;
@@ -55,9 +56,18 @@ h2 {
     color: black;
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 0px;
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
 }
+
+h2 {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
 
 p {
     color: black;
@@ -73,5 +83,5 @@ img {
     margin: 5%;
     width: 30%;
     height: 10%;
-    border: solid 4px white;
+    border: solid 4px grey;
 }
