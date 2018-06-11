@@ -13,14 +13,22 @@ h1 {
     margin: 0;
 }
 
+h3{
+    text-align: center;
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
 
 .list {
-    display : flex ;
-    justify-content : centre ;
-    align-items : centre ;
-    color : blanc ;
+    display : flex;
+    justify-content : center ;
+    align-items : center ;
+    color : white ;
     font-family : ' Quicksand ' , sans-serif ;
-    flex-direction : colonne ;
+    flex-direction : column ;
 }
 
 
@@ -32,6 +40,7 @@ article {
     background-color: grey;
     display: flex;
     flex-direction: row;
+  
 }
 
 img {
