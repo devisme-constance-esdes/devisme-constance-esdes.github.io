@@ -150,7 +150,9 @@ section a {
     font-size: 20px;
 }
 
-
+#about p b{
+    font-weight: 700%;
+}
 
 #about hr {
     width: 80%;
@@ -160,7 +162,6 @@ section a {
     background-color: rgb(248, 241, 241);
     flex-wrap: wrap;
     display: flex;
-    flex-direction:row;
     align-items:center;
     justify-content: center;
     min-height: 100%;
@@ -222,20 +223,22 @@ footer {
 @media screen and (max-width: 600px) {
     section {
     flex-wrap: nowrap;
-    flex-direction: column;    
+    flex-direction: column;   
+    margin: 20px; 
     }
     section a {
         width: 80%;
     }
     h4 {
-        font-size: small;
+        font-size: 20px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
     }
 }
 
-#article{ 
-    display: flex;
-    flex-direction: column;
-}
+
 /*TABLET*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
     section a {
