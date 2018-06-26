@@ -150,10 +150,6 @@ section a {
     font-size: 20px;
 }
 
-#about p b{
-    font-weight:700%;
-}
-
 #about hr {
     width: 80%;
 }
@@ -194,12 +190,12 @@ section a {
     transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
 }
 
-#Article1 {background-image:url("img/Paris\ 1.jpg");}
-#Article2 {background-image:url("img/Paris2.jpg");}
-#Article3 {background-image:url("img/Paris3.jpg");}
-#Article4 {background-image:url("img/Paris3.jpg");}
-#Article5 {background-image:url("img/Paris4.jpg");}
-#Article6 {background-image:url("img/Paris5.jpg");}
+#article1 {background-image:url("img/Paris\ 1.jpg");}
+#article2 {background-image:url("img/Paris2.jpg");}
+#article3 {background-image:url("img/Paris3.jpg");}
+#article4 {background-image:url("img/Paris3.jpg");}
+#article5 {background-image:url("img/Paris4.jpg");}
+#article6 {background-image:url("img/Paris5.jpg");}
 
 /*** FOOTER ***/
 
@@ -237,7 +233,6 @@ footer {
         flex-direction: column;
     }
 }
-
 
 /*TABLET*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
