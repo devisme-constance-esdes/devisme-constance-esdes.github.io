@@ -50,7 +50,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 50px; 
+    font-weight: 50%; 
     font-size: 15px;
     background-attachment: fixed;
 }
@@ -81,7 +81,7 @@ html,body{
             /****/
 
 header h1 {
-    background-color: #dde8eebd ; 
+    background-color: grey ; 
     color: #18171a;
     border-style : solid;
     border-width:2px;
@@ -193,7 +193,7 @@ section a {
 
 #articles article:hover {
     filter: grayscale(100%);
-    transition: all 0,6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0,6s cubic-bezier(0,075;0,82;0,165;1);
 }
 
 #Article1 {background-image:url("img/Paris\ 1.jpg");}
@@ -215,7 +215,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 50px; 
+    font-weight: 50%; 
     font-size: 15px;
     background-attachment: fixed;
 }
@@ -231,15 +231,22 @@ footer {
     section a {
         width: 80%;
     }
+    h4 {
+        font-size: small;
+    }
 }
 
-
+#article{ 
+    display: flex;
+    flex-direction: column;
+}
 /*TABLET*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
     section a {
         width: 70%;
     }
 }
+
 
 /** ANIMATION **/
 
