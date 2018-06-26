@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: "Traveling_Typewriter";
+    src:url(fonts/TravelingTypewriter.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src:url(fonts/roboto/Roboto-Light.ttf);
+}
+
+h1
+{
+	width: 50%;
+	height: 100px;
+	min-width: 300px;
+    font-family: "Traveling_Typewriter";
+}
+
+header {
+    background-image: url('img/background.png');
+    min-height: 25%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+header p {
+    margin-top: 0%;
+}
+
+#globe-img {
+    width: 80px;
+}
+
+nav{
+    background-color: #406289;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+article  {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+}
+
+article img {
+    width: 100%;
+}
+
+aside  {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fiche {
+    background-color: #d8d8d8;
+    margin: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #406289;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size : 12px;
+}
+
+body {
+    height: 100vh;
+    margin: 0%;
+    font-family: "Roboto-Light";
+}
+
+.nav-item {
+    height: 75px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#current-nav-item {
+    background-color: rgba(255, 99, 71, 0.521);
+    
+}
+
+#current-nav-item:hover {
+    background-color:#6a4042;
+}
+
+.nav-item a, .nav-item a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #334559;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social a img {
+    width: 40px;
+
+
+}
