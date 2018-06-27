@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+*{
+    font-family: 'Kalam', cursive;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a button {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+h1 {
+    color: rgb(39, 85, 94);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+article {
+    margin-top: 2%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start
+}
+
+div {
+    margin-left: 3%;
+}
+
+article1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+h2 {
+    color: #3A818E;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+h3 {
+    color: rgb(252, 156, 133);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: left;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    text-align: justify;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    text-align: justify;
+}
+
+a{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+img {
+    margin: 5%;
+    width: 30%;
+    height: 10%;
+    border: solid 4px grey;
+}
+
+b{
+    color:lightcoral;
+    font-size: 20px;
+}
